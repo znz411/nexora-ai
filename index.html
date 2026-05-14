@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nexora | AI Shopping Assistant</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header class="navbar">
+  <div class="logo">Nexora</div>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#features">Features</a>
+    <a href="#products">Products</a>
+    <a href="#assistant">AI Assistant</a>
+    <a href="#compare">Compare</a>
+  </nav>
+  <button onclick="scrollToSection('assistant')">Ask AI</button>
+</header>
+
+<section id="home" class="hero">
+  <div class="hero-text">
+    <p class="tag">AI-Powered Shopping Assistant</p>
+    <h1>Find the perfect product faster with Nexora.</h1>
+    <p class="desc">
+      Search, compare, save, and get AI-powered product recommendations based on your budget and purpose.
+    </p>
+
+    <div class="search-box">
+      <input id="searchInput" type="text" placeholder="Search phones, laptops, headphones..." />
+      <button onclick="searchProducts()">Search</button>
+    </div>
+
+    <div class="filters">
+      <select id="categoryFilter" onchange="filterProducts()">
+        <option value="all">All Categories</option>
+        <option value="phones">Phones</option>
+        <option value="laptops">Laptops</option>
+        <option value="headphones">Headphones</option>
+        <option value="watches">Watches</option>
+        <option value="shoes">Shoes</option>
+        <option value="powerbanks">Powerbanks</option>
+        <option value="clothes">Clothes</option>
+      </select>
+
+      <select id="budgetFilter" onchange="filterProducts()">
+        <option value="all">Any Budget</option>
+        <option value="5000">Under ₹5,000</option>
+        <option value="25000">Under ₹25,000</option>
+        <option value="60000">Under ₹60,000</option>
+        <option value="100000">Under ₹1,00,000</option>
+      </select>
+    </div>
+  </div>
+
+  <div class="hero-card">
+    <h3>Today’s Smart Pick</h3>
+    <p>Best balanced recommendation</p>
+    <div class="product-preview">
+      <span>💻</span>
+      <div>
+        <h4>HP Pavilion</h4>
+        <p>Great for students and coding</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="features" class="features">
+  <h2>Why Nexora?</h2>
+  <div class="feature-grid">
+    <div class="feature-card">🤖 AI Recommendations</div>
+    <div class="feature-card">📊 Product Comparison</div>
+    <div class="feature-card">❤️ Wishlist System</div>
+    <div class="feature-card">⚡ Fast Search</div>
+  </div>
+</section>
+
+<section id="products" class="products">
+  <h2>Recommended Products</h2>
+  <p id="resultText" class="result-text">Explore smart recommendations below.</p>
+  <div id="productGrid" class="product-grid"></div>
+</section>
+
+<section id="compare" class="compare">
+  <h2>Compare Products</h2>
+  <div id="compareBox" class="compare-box">
+    <p>No products selected for comparison.</p>
+  </div>
+</section>
+
+<section id="assistant" class="assistant">
+  <h2>Ask Nexora AI</h2>
+
+  <div class="chat-box">
+    <div class="bot-message">
+      Hi, I’m Nexora AI. Ask me something like: “Best laptop under ₹60k for coding?”
+    </div>
+
+    <input id="chatInput" type="text" placeholder="Ask for recommendations..." />
+    <button onclick="askAI()">Ask AI</button>
+
+    <div id="aiReply" class="bot-message hidden"></div>
+  </div>
+</section>
+
+<footer>
+  <h3>Nexora</h3>
+  <p>AI shopping assistant for smarter buying decisions.</p>
+  <p>© 2026 Nexora. All rights reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

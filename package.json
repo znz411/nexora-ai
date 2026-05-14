@@ -1,0 +1,16 @@
+{
+  "name": "nexora-ai-shopping-assistant",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cors": "latest",
+    "dotenv": "latest",
+    "express": "latest",
+    "groq-sdk": "^1.2.0",
+    "openai": "latest"
+  }
+}
