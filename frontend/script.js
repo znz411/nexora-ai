@@ -3,7 +3,7 @@ const products = [
   {
     id: 1,
     category: "phones",
-    image: "https://source.unsplash.com/featured/?iphone",
+    image: "https://images.pexels.com/photos/12741170/pexels-photo-12741170.jpeg",
     name: "iPhone 15",
     price: 75000,
     rating: 4.8,
@@ -14,7 +14,7 @@ const products = [
   {
     id: 2,
     category: "phones",
-    image: "https://source.unsplash.com/featured/?nothing-phone",
+    image: "https://images.pexels.com/photos/16144576/pexels-photo-16144576.jpeg",
     name: "Nothing Phone 2",
     price: 42000,
     rating: 4.5,
@@ -25,7 +25,7 @@ const products = [
   {
     id: 3,
     category: "phones",
-    image: "https://source.unsplash.com/featured/?oneplus-phone",
+    image: "https://images.pexels.com/photos/30165487/pexels-photo-30165487.jpeg",
     name: "OnePlus 12R",
     price: 39999,
     rating: 4.6,
@@ -36,7 +36,7 @@ const products = [
   {
     id: 4,
     category: "laptops",
-    image: "https://source.unsplash.com/featured/?hp-laptop",
+    image: "https://www.logicainfoway.com/wp-content/uploads/2023/10/002-25-600x600.jpg",
     name: "HP Pavilion",
     price: 58000,
     rating: 4.4,
@@ -47,7 +47,7 @@ const products = [
   {
     id: 5,
     category: "laptops",
-    image: "https://source.unsplash.com/featured/?macbook",
+    image: "https://rukminim2.flixcart.com/image/1500/1500/xif0q/computer/c/t/l/-original-imahgfdyftcnhdem.jpeg",
     name: "MacBook Air M2",
     price: 95000,
     rating: 4.8,
@@ -58,9 +58,9 @@ const products = [
   {
     id: 6,
     category: "laptops",
-    image: "https://source.unsplash.com/featured/?gaming-laptop",
-    name: "ASUS ROG",
-    price: 85000,
+    image: "https://s3bg.cashify.in/gpro/uploads/2022/01/30182111/asus-rog-strix-g15-g513ih-hn081t-amd-octa-core-ryzen-7-8-gb-512-gb-ssd-windows-10-4-gb-front.jpg",
+    name: "ASUS ROG strix",
+    price: 80000,
     rating: 4.7,
     bestFor: "Gaming",
     desc: "Powerful gaming laptop with RTX graphics."
@@ -69,7 +69,7 @@ const products = [
   {
     id: 7,
     category: "headphones",
-    image: "https://source.unsplash.com/featured/?sony-headphones",
+    image: "https://m.media-amazon.com/images/I/31BXEEUVfFL._SY300_SX300_QL70_FMwebp_.jpg",
     name: "Sony WH-1000XM5",
     price: 25000,
     rating: 4.9,
@@ -80,8 +80,8 @@ const products = [
   {
     id: 8,
     category: "headphones",
-    image: "https://source.unsplash.com/featured/?headphones",
-    name: "Boat Rockerz",
+    image: "https://m.media-amazon.com/images/I/41MoOqzVXuL._SY300_SX300_QL70_FMwebp_.jpg",
+    name: "Boat Rockerz 650 pro",
     price: 2500,
     rating: 4.1,
     bestFor: "Budget music",
@@ -91,9 +91,9 @@ const products = [
   {
     id: 9,
     category: "watches",
-    image: "https://source.unsplash.com/featured/?smartwatch",
-    name: "Noise Smartwatch",
-    price: 3500,
+    image: "https://m.media-amazon.com/images/I/41iRj4+m8oL._SY300_SX300_QL70_FMwebp_.jpg",
+    name: "Noise colorfit pro 5 Smartwatch",
+    price: 3999,
     rating: 4.2,
     bestFor: "Fitness tracking",
     desc: "Affordable smartwatch with fitness features."
@@ -102,9 +102,9 @@ const products = [
   {
     id: 10,
     category: "shoes",
-    image: "https://source.unsplash.com/featured/?sneakers",
+    image: "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTEQujjO74ExO0x5VdJlyMkLXqDD1jkEo2sqPd_nOllJD-YgfDpxPJCRC-rQ6WBxbqnbdMQzOLsQjAth2yxTAKgu2n_CzUeUxTlJLIRvrf1EE0RFfj_crgz",
     name: "Nike Air Max",
-    price: 9000,
+    price: 8638,
     rating: 4.6,
     bestFor: "Comfort sneakers",
     desc: "Comfortable premium sneakers."
@@ -113,7 +113,7 @@ const products = [
   {
     id: 11,
     category: "powerbanks",
-    image: "https://source.unsplash.com/featured/?powerbank",
+    image: "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRcQqGDGj4d9PHZU5UHVXZI9bc6v4_nquevHK-rhmx8laHMMMjFKmHb6UibgWnBzkVXuGjTQbpteKpeHlvNEVcpClw0h81QD19fHDytrhPTTCmIb9MRt7XJ3nHT5HlA&usqp=CAc",
     name: "Mi Powerbank 20000mAh",
     price: 1800,
     rating: 4.3,
@@ -124,9 +124,9 @@ const products = [
   {
     id: 12,
     category: "clothes",
-    image: "https://source.unsplash.com/featured/?hoodie",
+    image: "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQzfqW5-KIrgOO_X_jPJaOcKeBAuCuu5e1IJfho0SHv6cZUSFfT0vgzirYk1hhokBCfqXoGpP5e2CJ0sSOTSufbASEB-HSQAGLLwSdevmvn9lN0I_Pn3ogXaeBEzQ8FdzZzcQHi8lU&usqp=CAc",
     name: "H&M Relaxed Hoodie",
-    price: 2200,
+    price: 2990,
     rating: 4.2,
     bestFor: "Casual fashion",
     desc: "Comfortable hoodie with modern design."
