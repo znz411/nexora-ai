@@ -3,7 +3,7 @@ const products = [
   {
     id: 1,
     category: "phones",
-    image: "https://images.pexels.com/photos/12741170/pexels-photo-12741170.jpeg",
+    image: "https://iplanet.one/cdn/shop/files/iPhone_15_Pink_PDP_Image_Position-1__en-IN.jpg?v=1695427946&width=1920",
     name: "iPhone 15",
     price: 75000,
     rating: 4.8,
@@ -14,7 +14,7 @@ const products = [
   {
     id: 2,
     category: "phones",
-    image: "https://images.pexels.com/photos/16144576/pexels-photo-16144576.jpeg",
+    image: "https://img4.gadgetsnow.com/gd/images/products/additional/large/G454291_View_1/mobiles/smartphones/nothing-phone-2-256-gb-white-12-gb-ram-.jpg",
     name: "Nothing Phone 2",
     price: 42000,
     rating: 4.5,
@@ -25,7 +25,7 @@ const products = [
   {
     id: 3,
     category: "phones",
-    image: "https://images.pexels.com/photos/30165487/pexels-photo-30165487.jpeg",
+    image: "https://rukminim1.flixcart.com/image/1366/1366/xif0q/mobile/z/y/i/-original-imagy5wg4pqpymyh.jpeg?q=90",
     name: "OnePlus 12R",
     price: 39999,
     rating: 4.6,
@@ -58,7 +58,7 @@ const products = [
   {
     id: 6,
     category: "laptops",
-    image: "https://s3bg.cashify.in/gpro/uploads/2022/01/30182111/asus-rog-strix-g15-g513ih-hn081t-amd-octa-core-ryzen-7-8-gb-512-gb-ssd-windows-10-4-gb-front.jpg",
+    image: "https://img3.gadgetsnow.com/gd/images/products/additional/large/G353478_View_1/computer-laptop/laptops/asus-strix-g15g513rc-hn062w-amd-ryzen-7-6800h-15-6-inches-gaming-laptop-16gb-512gb-ssd-windows-11-grey-2-3-kg-.jpg",
     name: "ASUS ROG strix",
     price: 80000,
     rating: 4.7,
