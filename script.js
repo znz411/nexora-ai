@@ -446,7 +446,7 @@ async function askAI(){
     const response =
 
     await fetch(
-      "http://localhost:3000/api/ask-ai",
+      "https://nexora-ai-qgx9.onrender.com",
       {
 
         method: "POST",
